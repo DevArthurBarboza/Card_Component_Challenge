@@ -1,5 +1,5 @@
-@import url(https://fonts.google.com/specimen/Lexend+Deca);
-@import url(https://fonts.google.com/specimen/Inter);
+@import "https://fonts.google.com/specimen/Lexend+Deca";
+@import "https://fonts.google.com/specimen/Inter";
 
 /*
   ### Primary Colors ###
@@ -21,6 +21,7 @@ html {
   height: 100%;
   font-size: 15px;
   margin: none;
+  font-family: Inter, sans-serif;
 }
 
 * {
@@ -36,14 +37,12 @@ body {
 #card {
   width: 880px;
   height: 370px;
-  border: 10px solid;
   background: var(--primary_card_background);
   top: 150px;
   position: fixed;
   display: flex;
   left: 20%;
-
-  border-radius: 20px;
+  border-radius: 7px;
 }
 
 #text {
@@ -52,7 +51,6 @@ body {
   padding-right: 0px;
   padding-left: 30px;
   padding-top: 30px;
-  font-family: sans-serif;
 }
 
 #text p {
@@ -105,6 +103,8 @@ h1 {
   height: 100%;
   background: linear-gradient(rgba(192, 48, 260, 0.3), rgba(192, 48, 260, 0.3)),
     url("./images/image-header-desktop.jpg");
+  border-top-right-radius: 7px;
+  border-bottom-right-radius: 7px;
 }
 
 #layer {
